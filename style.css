@@ -54,6 +54,12 @@ a {
     border-radius: 8px;
     font-weight: bold;
     font-size: large;
+    border: none;
+}
+
+.find-sm:hover {
+    background-color: rgb(187, 25, 25);
+    cursor: pointer;
 }
 
 input {
@@ -85,6 +91,11 @@ input {
     margin: auto;
 }
 
+.sign-up:hover {
+    color: brown;
+    cursor: pointer;
+}
+
 .sign-in {
     border-radius: 4px;
     color: blue;
@@ -93,4 +104,9 @@ input {
     flex-direction: column;
     justify-content: center;
     margin: auto;
+}
+
+.sign-in:hover {
+    color: green;
+    cursor: pointer;
 }
